@@ -67,7 +67,7 @@ const items = [
 export default function BestPracticesPage(){
     return (
         <main className={styles.main}>
-            <h1 className={styles.header}>
+            <h1 data-test="best-practices" className={styles.header}>
                 Best Practices (recommended by Cypress)
             </h1>
             <ItemsAccordion items={items} />
